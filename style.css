@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* tags */
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Antonio, sans-serif;
+  height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  padding: 7px;
+  font-size: 20px;
+  line-height: 2px;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 , h2 {
+  text-align: center;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+}
+
+/* header */
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  opacity: 0.9;
+  z-index: 2;
+  color: white;
+  padding: 0 15px;
+}
+
+#titulo {
+  float: left;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+#menu {
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+  float: right;
+  margin-right: 20px;
+}
+
+/* Foto */
+#foto {
+  height: 500px;
+  padding-top: 15vh;
+}
+
+.card {
+  width: 900px;
+  height: 420px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  border-radius: 45px;
+  position: relative;
+  top: 60px;
+  left: 17%;
+  z-index: 1;
+}
+
+#minha_foto {
+  position: relative;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(33, 33, 33);
+  float: left;
+  top: 80px;
+  left: 60px;
+}
+
+.description {
+  position: relative;
+  width: 480px;
+  height: 250px;
+  float: right;
+  top: 80px;
+  right: 60px;
+}
+
+.nome {
+  font-size: 60px;
+  margin: 20px 0;
+  color: white;
+}
+
+.div-nome {
+  width: 65%;
+  height: 5px;
+  background-color: white;
+  margin-left: 84px;
+}
+
+.descritivo {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+/* Fim da seção foto */
+
+/* listas */
+#listas-secao {
+  height: 500px;
+}
+
+.titulo-listas {
+  font-size: 50px;
+}
+
+.listas {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.aprendidas {
+  float: left;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  width: 300px;
+  border-radius: 10%;
+}
+
+.aprender {
+  float: right;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+  width: 300px;
+  border-radius: 10%;
+}
+
+#licoes_aprendidas {
+  text-align: center;
+}
+
+#licoes_a_aprender {
+  text-align: center;
+}
+
+.titulo-lista {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+/* Fim das listas */
+
+/* aprendizado */
+.aprendizado {
+  height: 500px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 142, 61, 0.75) 0%, #1E8E3D 100%);
+}
+
+.titulo-aprendizado {
+  font-size: 50px;
+  color: white;
+}
+
+.lado-esquerdo {
+  color: white;
+  width: 30%;
+  float: left;
+  margin-left: 15%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.lado-direito {
+  color: white;
+  width: 30%;
+  float: right;
+  margin-right: 15%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* Fim da seção aprendizado */
+
+/* Tabela */
+.tabela-section {
+  height: 300px;
+}
+
+.titulo-tabela {
+  font-size: 50px;
+}
+
+.tabela {
+  margin-left: 43%;
+  border: 2px solid rgba(30, 142, 61, 0.75);
+}
+
+td {
+  font-size: 24px;
+}
+
+th {
+  font-size: 24px;
+}
+
+/* rodapé */
+#rodape {
+  position: relative;
+  bottom: 0;
+}
